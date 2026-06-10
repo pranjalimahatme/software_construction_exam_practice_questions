@@ -15,8 +15,6 @@ public class Pricing {
 
     /**
      * Calculate the price of a mysterious object under a mysterious pricing scheme.
-     *
-     * Pre-condition: all parameters are valid and non-null.
      */
     public static Integer calculatePrice(int unitPrice, Integer quantity, String memberId) {
         double discount = 0.0;
